@@ -1,6 +1,6 @@
 # First manual TS server
 
-My first manually setup typescript express server  
+My first manually setup typescript express server.  
 
 Run
 
@@ -17,13 +17,12 @@ token=something
 
 ---
 
-Initialize this project from scratch  
+Project from Scratch  
 
 ```bash
-npm i -g typescript
-mkdir ts-server && cd /ts-server
+mkdir ts-server && cd ./ts-server
 npm init
-tsc init
 npm i express dotenv
-npm i --save-dev @types/dotenv" @types/express @types/node"
+npm i --save-dev typescript @types/dotenv" @types/express @types/node"
+npx tsc init
 ```
