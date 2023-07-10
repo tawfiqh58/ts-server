@@ -3,7 +3,7 @@ import { currentUserRouter } from './routes/current-user';
 import dotenv from "dotenv";
 dotenv.config();
 
-process.env.DB_URL = 'Hello, world!';
+// process.env.DB_URL = 'Hello, world!';
 if (!process.env.DB_URL) {
   throw new Error('DB_URL must be defined');
 }
