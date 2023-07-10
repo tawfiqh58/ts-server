@@ -1,6 +1,6 @@
 # First manual TS server
 
-My first manually typescript setup express server  
+My first manually setup typescript express server  
 
 Run
 
@@ -9,7 +9,7 @@ tsc # First compile tsc file
 npm start # Run server
 ```
 
-GET:
+GET:  
 http://localhost:5000/api/users/currentuser
 
 HTTP Header:  
@@ -17,7 +17,7 @@ token=something
 
 ---
 
-How to initialize this project from scratch?  
+Initialize this project from scratch  
 
 ```bash
 npm i -g typescript
