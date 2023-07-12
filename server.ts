@@ -2,7 +2,7 @@ import express from 'express';
 import { currentUserRouter } from './routes/current-user';
 import dotenv from 'dotenv';
 dotenv.config();
-import { userJwt } from './routes/make-nonnull';
+import { userJwt } from './routes/use-nonnull';
 
 // process.env.DB_URL = 'Hello, world!';
 if (!process.env.DB_URL) {
