@@ -25,6 +25,7 @@ export const currentUser = (
   }
 
   try {
+    // This project focus on Typescript rather than the actual implementaion
     const payload = { id: '1', email: 'some@email.com' };
     req.currentUser = payload;
   } catch (err) {}

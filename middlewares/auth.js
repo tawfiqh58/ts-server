@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.currentUser = void 0;
 const currentUser = (req, res, next) => {
-    console.log(req.headers.authorization);
     console.log(req.headers['token']);
     if (!req.headers.token) {
         return next();
